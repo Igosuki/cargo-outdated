@@ -52,3 +52,6 @@ default = []
 
 [profile.release]
 lto = true
+
+[patch.crates-io]
+cargo = { git = "https://github.com/rust-lang/cargo", rev = "58790d3b5e0ce55ac8b7929e4632b277f8c7c21a" }
